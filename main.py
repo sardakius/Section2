@@ -56,6 +56,8 @@ with tbaapiv3client.ApiClient(configuration) as api_client:
         for state in team_info[2]:
             print(state)
         
+        print()
+        
         print(f"Cities that have faced this team: ")
         for city in team_info[3]:
             print(city)
